@@ -1,0 +1,357 @@
+[
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/env_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/env_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/env_test.dir/util/env_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/env_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/env_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/c_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/cc -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c11 -o CMakeFiles/c_test.dir/db/c_test.c.o   -c /home/ubuntu/CLionProjects/leveldb_ori/db/c_test.c",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/c_test.c"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/issue178_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/issue178_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/issue178_test.dir/issues/issue178_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/issues/issue178_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/issues/issue178_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/builder.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/builder.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/builder.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/c.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/c.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/c.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/db_impl.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/db_impl.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/db_impl.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/db_iter.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/db_iter.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/db_iter.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/dbformat.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/dbformat.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/dbformat.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/dumpfile.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/dumpfile.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/dumpfile.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/filename.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/filename.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/filename.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/log_reader.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/log_reader.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/log_reader.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/log_writer.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/log_writer.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/log_writer.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/memtable.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/memtable.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/memtable.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/repair.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/repair.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/repair.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/table_cache.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/table_cache.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/table_cache.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/version_edit.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/version_edit.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/version_edit.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/version_set.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/version_set.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/version_set.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/write_batch.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/write_batch.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/write_batch.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/db/NVM_Enhance.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/NVM_Enhance.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/NVM_Enhance.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/block_builder.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/block_builder.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/block_builder.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/block.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/block.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/block.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/filter_block.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/filter_block.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/filter_block.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/format.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/format.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/format.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/iterator.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/iterator.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/iterator.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/merger.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/merger.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/merger.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/table_builder.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/table_builder.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/table_builder.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/table.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/table.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/table.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/table/two_level_iterator.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/table/two_level_iterator.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/table/two_level_iterator.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/arena.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/arena.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/arena.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/bloom.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/bloom.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/bloom.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/cache.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/cache.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/cache.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/coding.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/coding.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/coding.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/comparator.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/comparator.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/comparator.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/crc32c.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/crc32c.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/crc32c.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/env.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/env.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/env.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/filter_policy.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/filter_policy.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/filter_policy.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/hash.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/hash.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/hash.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/logging.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/logging.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/logging.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/options.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/options.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/options.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/status.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/status.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/status.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/util/env_posix.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/env_posix.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/env_posix.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldb.dir/helpers/memenv/memenv.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/helpers/memenv/memenv.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/helpers/memenv/memenv.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++   -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/leveldbutil.dir/db/leveldbutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/leveldbutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/leveldbutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/issue200_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/issue200_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/issue200_test.dir/issues/issue200_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/issues/issue200_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/issues/issue200_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/status_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/status_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/status_test.dir/util/status_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/status_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/status_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/fault_injection_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/fault_injection_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/fault_injection_test.dir/db/fault_injection_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/fault_injection_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/fault_injection_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/no_destructor_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/no_destructor_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/no_destructor_test.dir/util/no_destructor_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/no_destructor_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/no_destructor_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/skiplist_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/skiplist_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/skiplist_test.dir/db/skiplist_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/skiplist_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/skiplist_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/autocompact_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/autocompact_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/autocompact_test.dir/db/autocompact_test.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/autocompact_test.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/autocompact_test.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/db_bench.dir/util/histogram.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/histogram.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/histogram.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/db_bench.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/db_bench.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc"
+},
+{
+  "directory": "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug",
+  "command": "/usr/bin/c++  -DLEVELDB_PLATFORM_POSIX=1 -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include  -g   -std=c++11 -o CMakeFiles/db_bench.dir/db/db_bench.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/db/db_bench.cc",
+  "file": "/home/ubuntu/CLionProjects/leveldb_ori/db/db_bench.cc"
+}
+]
