@@ -18,9 +18,6 @@
 #include "leveldb/slice.h"
 #include "port/port.h"
 
-//#define keyset_model
-// it should noticed that in keyset model, All Slices of Key store the Offset/Pointer/NVM_Pointer for the value.
-
 namespace leveldb {
 
 // Standard Put... routines append to a string

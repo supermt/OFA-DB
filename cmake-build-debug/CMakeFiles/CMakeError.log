@@ -1,82 +1,82 @@
 Determining if the function crc32c_value exists in the crc32c failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ce7ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ce7ed.dir/build.make CMakeFiles/cmTC_ce7ed.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ce7ed.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_ce7ed.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ce7ed
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce7ed.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value    CMakeFiles/cmTC_ce7ed.dir/CheckFunctionExists.c.o  -o cmTC_ce7ed -lcrc32c 
+Run Build Command:"/usr/bin/make" "cmTC_6e01f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e01f.dir/build.make CMakeFiles/cmTC_6e01f.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e01f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_6e01f.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6e01f
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e01f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value    CMakeFiles/cmTC_6e01f.dir/CheckFunctionExists.c.o  -o cmTC_6e01f -lcrc32c 
 /usr/bin/ld: cannot find -lcrc32c
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ce7ed.dir/build.make:87: cmTC_ce7ed] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ce7ed/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6e01f.dir/build.make:87: cmTC_6e01f] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6e01f/fast] Error 2
 
 
 Determining if the function snappy_compress exists in the snappy failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e09a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e09a0.dir/build.make CMakeFiles/cmTC_e09a0.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e09a0.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_e09a0.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_e09a0
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e09a0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress    CMakeFiles/cmTC_e09a0.dir/CheckFunctionExists.c.o  -o cmTC_e09a0 -lsnappy 
+Run Build Command:"/usr/bin/make" "cmTC_af272/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af272.dir/build.make CMakeFiles/cmTC_af272.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af272.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_af272.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_af272
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af272.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress    CMakeFiles/cmTC_af272.dir/CheckFunctionExists.c.o  -o cmTC_af272 -lsnappy 
 /usr/bin/ld: cannot find -lsnappy
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_e09a0.dir/build.make:87: cmTC_e09a0] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_e09a0/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_af272.dir/build.make:87: cmTC_af272] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_af272/fast] Error 2
 
 
 Determining if the function malloc exists in the tcmalloc failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_115f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_115f7.dir/build.make CMakeFiles/cmTC_115f7.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_115f7.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_115f7.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_989a2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_989a2.dir/build.make CMakeFiles/cmTC_989a2.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_989a2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_989a2.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
 <command-line>: warning: conflicting types for built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
 /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
    CHECK_FUNCTION_EXISTS(void);
    ^~~~~~~~~~~~~~~~~~~~~
-Linking C executable cmTC_115f7
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_115f7.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_115f7.dir/CheckFunctionExists.c.o  -o cmTC_115f7 -ltcmalloc 
+Linking C executable cmTC_989a2
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_989a2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_989a2.dir/CheckFunctionExists.c.o  -o cmTC_989a2 -ltcmalloc 
 /usr/bin/ld: cannot find -ltcmalloc
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_115f7.dir/build.make:87: cmTC_115f7] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_115f7/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_989a2.dir/build.make:87: cmTC_989a2] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_989a2/fast] Error 2
 
 
 Determining if the F_FULLFSYNC exist failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a9d0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a9d0.dir/build.make CMakeFiles/cmTC_9a9d0.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9a9d0.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_9a9d0.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_d2e49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2e49.dir/build.make CMakeFiles/cmTC_d2e49.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2e49.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_d2e49.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
    return ((int*)(&F_FULLFSYNC))[argc];
                    ^~~~~~~~~~~
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘O_FSYNC’
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘O_FSYNC’
    return ((int*)(&F_FULLFSYNC))[argc];
                    ^~~~~~~~~~~
                    O_FSYNC
-make[1]: *** [CMakeFiles/cmTC_9a9d0.dir/build.make:66: CMakeFiles/cmTC_9a9d0.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_9a9d0/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d2e49.dir/build.make:66: CMakeFiles/cmTC_d2e49.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d2e49/fast] Error 2
 
-File /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <fcntl.h>
 
@@ -92,29 +92,29 @@ int main(int argc, char** argv)
 }
 
 Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e47f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e47f6.dir/build.make CMakeFiles/cmTC_e47f6.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e47f6.dir/src.cxx.o
-/usr/bin/c++    -DHAVE_CLANG_THREAD_SAFETY -Werror   -std=c++11 -o CMakeFiles/cmTC_e47f6.dir/src.cxx.o -c /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:34: error: ‘lockable’ attribute directive ignored [-Werror=attributes]
+Run Build Command:"/usr/bin/make" "cmTC_e4c67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4c67.dir/build.make CMakeFiles/cmTC_e4c67.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4c67.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CLANG_THREAD_SAFETY -Werror   -std=c++11 -o CMakeFiles/cmTC_e4c67.dir/src.cxx.o -c /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:34: error: ‘lockable’ attribute directive ignored [-Werror=attributes]
  struct __attribute__((lockable)) Lock {
                                   ^~~~
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:3:59: error: ‘exclusive_lock_function’ attribute directive ignored [-Werror=attributes]
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:3:59: error: ‘exclusive_lock_function’ attribute directive ignored [-Werror=attributes]
    void Acquire() __attribute__((exclusive_lock_function()));
                                                            ^
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:4:51: error: ‘unlock_function’ attribute directive ignored [-Werror=attributes]
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:4:51: error: ‘unlock_function’ attribute directive ignored [-Werror=attributes]
    void Release() __attribute__((unlock_function()));
                                                    ^
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:8:46: error: ‘guarded_by’ attribute directive ignored [-Werror=attributes]
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:8:46: error: ‘guarded_by’ attribute directive ignored [-Werror=attributes]
    int data_ __attribute__((guarded_by(lock_)));
                                               ^
 cc1plus: all warnings being treated as errors
-make[1]: *** [CMakeFiles/cmTC_e47f6.dir/build.make:66: CMakeFiles/cmTC_e47f6.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_e47f6/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_e4c67.dir/build.make:66: CMakeFiles/cmTC_e4c67.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_e4c67/fast] Error 2
 
 Source file was:
 
@@ -129,24 +129,24 @@ struct ThreadSafeType {
 int main() { return 0; }
 
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_60013/fast"
-/usr/bin/make -f CMakeFiles/cmTC_60013.dir/build.make CMakeFiles/cmTC_60013.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60013.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_60013.dir/CheckSymbolExists.c.o   -c /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_60013
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60013.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_60013.dir/CheckSymbolExists.c.o  -o cmTC_60013 
-/usr/bin/ld: CMakeFiles/cmTC_60013.dir/CheckSymbolExists.c.o: in function `main':
+Run Build Command:"/usr/bin/make" "cmTC_b74f2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b74f2.dir/build.make CMakeFiles/cmTC_b74f2.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b74f2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b74f2.dir/CheckSymbolExists.c.o   -c /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b74f2
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b74f2.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b74f2.dir/CheckSymbolExists.c.o  -o cmTC_b74f2 
+/usr/bin/ld: CMakeFiles/cmTC_b74f2.dir/CheckSymbolExists.c.o: in function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_60013.dir/build.make:87: cmTC_60013] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_60013/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_b74f2.dir/build.make:87: cmTC_b74f2] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b74f2/fast] Error 2
 
-File /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -162,56 +162,56 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2697/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2697.dir/build.make CMakeFiles/cmTC_a2697.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2697.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_a2697.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a2697
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2697.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a2697.dir/CheckFunctionExists.c.o  -o cmTC_a2697 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_ba575/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba575.dir/build.make CMakeFiles/cmTC_ba575.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba575.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_ba575.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba575
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba575.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ba575.dir/CheckFunctionExists.c.o  -o cmTC_ba575 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a2697.dir/build.make:87: cmTC_a2697] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a2697/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ba575.dir/build.make:87: cmTC_ba575] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ba575/fast] Error 2
 
 
 Determining if the function sqlite3_open exists in the sqlite3 failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7fd11/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7fd11.dir/build.make CMakeFiles/cmTC_7fd11.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7fd11.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqlite3_open   -std=c11 -o CMakeFiles/cmTC_7fd11.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7fd11
-/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fd11.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqlite3_open    CMakeFiles/cmTC_7fd11.dir/CheckFunctionExists.c.o  -o cmTC_7fd11 -lsqlite3 
+Run Build Command:"/usr/bin/make" "cmTC_c50bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c50bb.dir/build.make CMakeFiles/cmTC_c50bb.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c50bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sqlite3_open   -std=c11 -o CMakeFiles/cmTC_c50bb.dir/CheckFunctionExists.c.o   -c /snap/clion/61/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c50bb
+/snap/clion/61/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c50bb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sqlite3_open    CMakeFiles/cmTC_c50bb.dir/CheckFunctionExists.c.o  -o cmTC_c50bb -lsqlite3 
 /usr/bin/ld: cannot find -lsqlite3
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_7fd11.dir/build.make:87: cmTC_7fd11] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_7fd11/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_c50bb.dir/build.make:87: cmTC_c50bb] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c50bb/fast] Error 2
 
 
 Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
-Change Dir: /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6f651/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6f651.dir/build.make CMakeFiles/cmTC_6f651.dir/build
-make[1]: Entering directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6f651.dir/src.cxx.o
-/usr/bin/c++    -DHAVE_KYOTOCABINET   -std=c++11 -o CMakeFiles/cmTC_6f651.dir/src.cxx.o -c /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_70666/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70666.dir/build.make CMakeFiles/cmTC_70666.dir/build
+make[1]: Entering directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70666.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_KYOTOCABINET   -std=c++11 -o CMakeFiles/cmTC_70666.dir/src.cxx.o -c /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: kcpolydb.h: No such file or directory
  #include <kcpolydb.h>
           ^~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_6f651.dir/build.make:66: CMakeFiles/cmTC_6f651.dir/src.cxx.o] Error 1
-make[1]: Leaving directory '/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_6f651/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_70666.dir/build.make:66: CMakeFiles/cmTC_70666.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_70666/fast] Error 2
 
 Source file was:
 

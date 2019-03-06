@@ -244,17 +244,17 @@ leveldb/options.h
 leveldb/status.h
 ../include/leveldb/leveldb/status.h
 
-/home/ubuntu/CLionProjects/leveldb_ori/db/autocompact_test.cc
+/home/ubuntu/CLionProjects/OFA-DB/db/autocompact_test.cc
 leveldb/db.h
-/home/ubuntu/CLionProjects/leveldb_ori/db/leveldb/db.h
+/home/ubuntu/CLionProjects/OFA-DB/db/leveldb/db.h
 db/db_impl.h
-/home/ubuntu/CLionProjects/leveldb_ori/db/db/db_impl.h
+/home/ubuntu/CLionProjects/OFA-DB/db/db/db_impl.h
 leveldb/cache.h
-/home/ubuntu/CLionProjects/leveldb_ori/db/leveldb/cache.h
+/home/ubuntu/CLionProjects/OFA-DB/db/leveldb/cache.h
 util/testharness.h
-/home/ubuntu/CLionProjects/leveldb_ori/db/util/testharness.h
+/home/ubuntu/CLionProjects/OFA-DB/db/util/testharness.h
 util/testutil.h
-/home/ubuntu/CLionProjects/leveldb_ori/db/util/testutil.h
+/home/ubuntu/CLionProjects/OFA-DB/db/util/testutil.h
 
 include/port/port_config.h
 

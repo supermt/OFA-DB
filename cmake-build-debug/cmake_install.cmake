@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/CLionProjects/leveldb_ori
+# Install script for directory: /home/ubuntu/CLionProjects/OFA-DB
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/libleveldb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/libleveldb.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/leveldb" TYPE FILE FILES
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/c.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/cache.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/comparator.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/db.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/dumpfile.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/env.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/export.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/filter_policy.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/iterator.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/options.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/slice.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/status.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/table_builder.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/table.h"
-    "/home/ubuntu/CLionProjects/leveldb_ori/include/leveldb/write_batch.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/c.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/cache.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/comparator.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/db.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/dumpfile.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/env.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/export.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/filter_policy.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/iterator.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/options.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/slice.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/status.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/table_builder.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/table.h"
+    "/home/ubuntu/CLionProjects/OFA-DB/include/leveldb/write_batch.h"
     )
 endif()
 
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake"
-         "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+         "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -74,16 +74,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES
-    "/home/ubuntu/CLionProjects/leveldb_ori/cmake/leveldbConfig.cmake"
-    "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/leveldbConfigVersion.cmake"
+    "/home/ubuntu/CLionProjects/OFA-DB/cmake/leveldbConfig.cmake"
+    "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/leveldbConfigVersion.cmake"
     )
 endif()
 
@@ -95,5 +95,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -20,7 +20,11 @@ Options::Options()
       max_open_files(1000),
       block_cache(nullptr),
       block_size(4096),
+#ifdef KEYSET_MODE
+      block_restart_interval(1),
+#else
       block_restart_interval(16),
+#endif
       max_file_size(2<<20),
       compression(kSnappyCompression),
       reuse_logs(false),

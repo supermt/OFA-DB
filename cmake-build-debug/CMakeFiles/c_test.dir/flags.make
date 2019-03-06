@@ -7,11 +7,11 @@ C_FLAGS = -g   -std=c11
 
 C_DEFINES = -DLEVELDB_PLATFORM_POSIX=1
 
-C_INCLUDES = -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include 
+C_INCLUDES = -I/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/include -I/home/ubuntu/CLionProjects/OFA-DB -I/home/ubuntu/CLionProjects/OFA-DB/include 
 
 CXX_FLAGS = -g   -std=c++11
 
 CXX_DEFINES = -DLEVELDB_PLATFORM_POSIX=1
 
-CXX_INCLUDES = -I/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/include -I/home/ubuntu/CLionProjects/leveldb_ori -I/home/ubuntu/CLionProjects/leveldb_ori/include 
+CXX_INCLUDES = -I/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/include -I/home/ubuntu/CLionProjects/OFA-DB -I/home/ubuntu/CLionProjects/OFA-DB/include 
 

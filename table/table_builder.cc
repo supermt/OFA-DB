@@ -57,6 +57,9 @@ struct TableBuilder::Rep {
                      : new FilterBlockBuilder(opt.filter_policy)),
         pending_index_entry(false) {
     index_block_options.block_restart_interval = 1;
+#ifdef KEYSET_MODE
+    data_block = UnitedBlockBuilder(&options);
+#endif
   }
 };
 

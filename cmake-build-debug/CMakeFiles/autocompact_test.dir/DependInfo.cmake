@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/CLionProjects/leveldb_ori/db/autocompact_test.cc" "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/autocompact_test.dir/db/autocompact_test.cc.o"
-  "/home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc" "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/autocompact_test.dir/util/testharness.cc.o"
-  "/home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc" "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/autocompact_test.dir/util/testutil.cc.o"
+  "/home/ubuntu/CLionProjects/OFA-DB/db/autocompact_test.cc" "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/autocompact_test.dir/db/autocompact_test.cc.o"
+  "/home/ubuntu/CLionProjects/OFA-DB/util/testharness.cc" "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/autocompact_test.dir/util/testharness.cc.o"
+  "/home/ubuntu/CLionProjects/OFA-DB/util/testutil.cc" "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/autocompact_test.dir/util/testutil.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/leveldb.dir/DependInfo.cmake"
+  "/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/leveldb.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

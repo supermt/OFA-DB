@@ -43,10 +43,10 @@ RM = /snap/clion/61/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/CLionProjects/leveldb_ori
+CMAKE_SOURCE_DIR = /home/ubuntu/CLionProjects/OFA-DB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c_test.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/c_test.dir/flags.make
 
 CMakeFiles/c_test.dir/util/testharness.cc.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/util/testharness.cc.o: ../util/testharness.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_test.dir/util/testharness.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c_test.dir/util/testharness.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testharness.cc.o -c /home/ubuntu/CLionProjects/OFA-DB/util/testharness.cc
 
 CMakeFiles/c_test.dir/util/testharness.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/util/testharness.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc > CMakeFiles/c_test.dir/util/testharness.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/OFA-DB/util/testharness.cc > CMakeFiles/c_test.dir/util/testharness.cc.i
 
 CMakeFiles/c_test.dir/util/testharness.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/util/testharness.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/leveldb_ori/util/testharness.cc -o CMakeFiles/c_test.dir/util/testharness.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/OFA-DB/util/testharness.cc -o CMakeFiles/c_test.dir/util/testharness.cc.s
 
 CMakeFiles/c_test.dir/util/testutil.cc.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/util/testutil.cc.o: ../util/testutil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_test.dir/util/testutil.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_test.dir/util/testutil.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_test.dir/util/testutil.cc.o -c /home/ubuntu/CLionProjects/OFA-DB/util/testutil.cc
 
 CMakeFiles/c_test.dir/util/testutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_test.dir/util/testutil.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc > CMakeFiles/c_test.dir/util/testutil.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/CLionProjects/OFA-DB/util/testutil.cc > CMakeFiles/c_test.dir/util/testutil.cc.i
 
 CMakeFiles/c_test.dir/util/testutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_test.dir/util/testutil.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/leveldb_ori/util/testutil.cc -o CMakeFiles/c_test.dir/util/testutil.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/CLionProjects/OFA-DB/util/testutil.cc -o CMakeFiles/c_test.dir/util/testutil.cc.s
 
 CMakeFiles/c_test.dir/db/c_test.c.o: CMakeFiles/c_test.dir/flags.make
 CMakeFiles/c_test.dir/db/c_test.c.o: ../db/c_test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_test.dir/db/c_test.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_test.dir/db/c_test.c.o   -c /home/ubuntu/CLionProjects/leveldb_ori/db/c_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/c_test.dir/db/c_test.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_test.dir/db/c_test.c.o   -c /home/ubuntu/CLionProjects/OFA-DB/db/c_test.c
 
 CMakeFiles/c_test.dir/db/c_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_test.dir/db/c_test.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/CLionProjects/leveldb_ori/db/c_test.c > CMakeFiles/c_test.dir/db/c_test.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/CLionProjects/OFA-DB/db/c_test.c > CMakeFiles/c_test.dir/db/c_test.c.i
 
 CMakeFiles/c_test.dir/db/c_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_test.dir/db/c_test.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/CLionProjects/leveldb_ori/db/c_test.c -o CMakeFiles/c_test.dir/db/c_test.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/CLionProjects/OFA-DB/db/c_test.c -o CMakeFiles/c_test.dir/db/c_test.c.s
 
 # Object files for target c_test
 c_test_OBJECTS = \
@@ -111,7 +111,7 @@ c_test: CMakeFiles/c_test.dir/db/c_test.c.o
 c_test: CMakeFiles/c_test.dir/build.make
 c_test: libleveldb.a
 c_test: CMakeFiles/c_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable c_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable c_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/c_test.dir/clean:
 .PHONY : CMakeFiles/c_test.dir/clean
 
 CMakeFiles/c_test.dir/depend:
-	cd /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/CLionProjects/leveldb_ori /home/ubuntu/CLionProjects/leveldb_ori /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug /home/ubuntu/CLionProjects/leveldb_ori/cmake-build-debug/CMakeFiles/c_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/CLionProjects/OFA-DB /home/ubuntu/CLionProjects/OFA-DB /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug /home/ubuntu/CLionProjects/OFA-DB/cmake-build-debug/CMakeFiles/c_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c_test.dir/depend
 
