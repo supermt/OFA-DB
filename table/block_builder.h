@@ -33,7 +33,7 @@ namespace leveldb {
 
     // Returns an estimate of the current (uncompressed) size of the block
     // we are building.
-    size_t CurrentSizeEstimate() const;
+    size_t CurrentSizeEstimate();
 
     // Return true iff no entries have been added since the last Reset()
     bool empty() const {
@@ -52,9 +52,17 @@ namespace leveldb {
   class UnitedBlockBuilder : public BlockBuilder {
   public:
     explicit UnitedBlockBuilder(const Options *options)
-        : BlockBuilder(options) {};
+        : BlockBuilder(options),keys(),index(),values() {};
     Slice Finish();
     void Add(const Slice &key, const Slice &value);
+    size_t CurrentSizeEstimate();
+    void Reset();
+
+  private:
+    std::vector<Slice> keys;
+    std::vector<uintptr_t> index;
+    std::vector<Slice> values;
+    long estimate_length = 0;
   };
 
 }  // namespace leveldb

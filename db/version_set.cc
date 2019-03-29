@@ -4,19 +4,14 @@
 
 #include "db/version_set.h"
 
-#include <algorithm>
-#include <stdio.h>
 #include "db/filename.h"
 #include "db/log_reader.h"
 #include "db/log_writer.h"
 #include "db/memtable.h"
 #include "db/table_cache.h"
 #include "leveldb/env.h"
-#include "leveldb/table_builder.h"
 #include "table/merger.h"
 #include "table/two_level_iterator.h"
-#include "util/coding.h"
-#include "util/logging.h"
 
 namespace leveldb {
 
@@ -344,6 +339,7 @@ namespace leveldb {
                       const LookupKey &k,
                       std::string *value,
                       GetStats *stats) {
+
     Slice ikey = k.internal_key();
     Slice user_key = k.user_key();
     const Comparator *ucmp = vset_->icmp_.user_comparator();
@@ -359,7 +355,7 @@ namespace leveldb {
     // in an smaller level, later levels are irrelevant.
     std::vector<FileMetaData *> tmp;
     FileMetaData *tmp2;
-      for (int level = 0; level < config::kNumLevels; level++) {
+    for (int level = 0; level < config::kNumLevels; level++) {
       size_t num_files = files_[level].size();
       if (num_files == 0) continue;
 

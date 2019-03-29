@@ -8,7 +8,7 @@
 #include <stddef.h>
 #include "leveldb/export.h"
 
-#define KEYSET_MODE
+//#define KEYSET_MODE
 
 namespace leveldb {
 

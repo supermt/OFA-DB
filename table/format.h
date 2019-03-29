@@ -13,6 +13,13 @@
 
 namespace leveldb {
 
+extern bool isInCompaction;
+extern unsigned long total_time;
+extern unsigned long read_time;
+extern unsigned long write_time;
+extern unsigned long encode_time;
+extern unsigned long decode_time;
+
 class Block;
 class RandomAccessFile;
 struct ReadOptions;

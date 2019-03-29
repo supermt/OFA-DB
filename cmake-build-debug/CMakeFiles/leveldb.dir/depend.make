@@ -63,6 +63,7 @@ CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../port/port.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../port/port_stdcxx.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../port/thread_annotations.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../table/block.h
+CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../table/format.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../table/merger.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../table/two_level_iterator.h
 CMakeFiles/leveldb.dir/db/db_impl.cc.o: ../util/arena.h
@@ -409,6 +410,7 @@ CMakeFiles/leveldb.dir/table/block.cc.o: ../include/leveldb/table_builder.h
 CMakeFiles/leveldb.dir/table/block.cc.o: ../table/block.cc
 CMakeFiles/leveldb.dir/table/block.cc.o: include/port/port_config.h
 
+CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../include/leveldb/env.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../port/atomic_pointer.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../port/port.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../port/port_stdcxx.h
@@ -422,6 +424,7 @@ CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../include/leveldb/slice.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../include/leveldb/status.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../include/leveldb/table_builder.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../table/block_builder.cc
+CMakeFiles/leveldb.dir/table/block_builder.cc.o: ../table/format.h
 CMakeFiles/leveldb.dir/table/block_builder.cc.o: include/port/port_config.h
 
 CMakeFiles/leveldb.dir/table/filter_block.cc.o: ../port/atomic_pointer.h

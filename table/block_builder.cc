@@ -45,9 +45,11 @@
 
 #include <algorithm>
 #include <assert.h>
+#include <include/leveldb/env.h>
 #include "leveldb/comparator.h"
 #include "leveldb/table_builder.h"
 #include "util/coding.h"
+#include "format.h"
 
 namespace leveldb {
 
@@ -70,7 +72,7 @@ namespace leveldb {
     last_key_.clear();
   }
 
-  size_t BlockBuilder::CurrentSizeEstimate() const {
+  size_t BlockBuilder::CurrentSizeEstimate() {
     return (buffer_.size() +                        // Raw data buffer
             restarts_.size() * sizeof(uint32_t) +   // Restart array
             sizeof(uint32_t));                      // Restart array length
@@ -94,6 +96,8 @@ namespace leveldb {
            || options_->comparator->Compare(key, last_key_piece) > 0);
     size_t shared = 0;
 
+    struct timespec start, end;
+    clock_gettime(CLOCK_MONOTONIC, &start);
     // Still in a block
     if (counter_ < options_->block_restart_interval) {
       // See how much sharing to do with previous string
@@ -108,6 +112,8 @@ namespace leveldb {
     }
     const size_t non_shared = key.size() - shared;
 
+//    std::cout<< "encode time: " << end.tv_nsec-start.tv_nsec <<std::endl;
+
     // Add "<shared><non_shared><value_size>" to buffer_
     PutVarint32(&buffer_, shared);
     PutVarint32(&buffer_, non_shared);
@@ -120,57 +126,58 @@ namespace leveldb {
     // Update state
     last_key_.resize(shared);
     last_key_.append(key.data() + shared, non_shared);
+    clock_gettime(CLOCK_MONOTONIC, &end);
+    if (isInCompaction) {
+      encode_time += end.tv_nsec - start.tv_nsec;
+    }
     assert(Slice(last_key_) == key);
     counter_++;
   }
 
 
+  size_t UnitedBlockBuilder::CurrentSizeEstimate() {
+    return estimate_length;
+  };
+
+
   void UnitedBlockBuilder::Add(const Slice &key, const Slice &value) {
-    Slice last_key_piece(last_key_);
-    assert(!finished_);
-    assert(counter_ <= options_->block_restart_interval);
-    assert(buffer_.empty() // No values yet?
-           || options_->comparator->Compare(key, last_key_piece) > 0);
-    size_t shared = 0;
-
-    // Still in a block
-    if (counter_ < options_->block_restart_interval) {
-      // See how much sharing to do with previous string
-      const size_t min_length = std::min(last_key_piece.size(), key.size());
-      while ((shared < min_length) && (last_key_piece[shared] == key[shared])) {
-        shared++;
-      }
-    } else {
-      // Restart compression
-      restarts_.push_back(buffer_.size());
-      counter_ = 0;
-    }
-    const size_t non_shared = key.size() - shared;
-
-    // Add "<shared><non_shared><value_size>" to buffer_
-    PutVarint32(&buffer_, shared);
-    PutVarint32(&buffer_, non_shared);
-    PutVarint32(&buffer_, value.size());
-
-    // Add string delta to buffer_ followed by value
-    buffer_.append(key.data() + shared, non_shared);
-    buffer_.append(value.data(), value.size());
-
-    // Update state
-    last_key_.resize(shared);
-    last_key_.append(key.data() + shared, non_shared);
-    assert(Slice(last_key_) == key);
-    counter_++;
+    keys.push_back(key);
+    values.push_back(value);
+    estimate_length += (key.size() + value.size());
   }
 
   Slice UnitedBlockBuilder::Finish() {
     // Append restart array
-    for (size_t i = 0; i < restarts_.size(); i++) {
-      PutFixed32(&buffer_, restarts_[i]);
+    // append keyset (In file, there is no need for
+    PutFixed32(&buffer_, keys.size());
+    for (Slice c : keys) {
+      PutVarint32(&buffer_, c.size());
+      buffer_.append(c.data(), c.size());
+    }
+    PutFixed32(&buffer_, keys.size());
+    for (Slice c: values) {
+      PutVarint32(&buffer_, c.size());
+      buffer_.append(c.data(), c.size());
     }
     PutFixed32(&buffer_, restarts_.size());
+
     finished_ = true;
     return Slice(buffer_);
+  }
+
+  void UnitedBlockBuilder::Reset() {
+    buffer_.clear();
+    restarts_.clear();
+    restarts_.push_back(0);       // First restart point is at offset 0
+
+    keys.clear();
+    values.clear();
+    index.clear();
+
+    counter_ = 0;
+    finished_ = false;
+    last_key_.clear();
+    estimate_length = 0;
   }
 
 

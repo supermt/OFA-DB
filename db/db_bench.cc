@@ -198,7 +198,7 @@ namespace leveldb {
         start_ = g_env->NowMicros();
         finish_ = start_;
         message_.clear();
-        info_log = new PosixLogger(fopen("/Users/MT/git/ycsb/python_plot/record", "w"));
+        info_log = new PosixLogger(fopen("/mnt/pmem/autocompact_test/record", "w"));
       }
 
       void Merge(const Stats &other) {
